@@ -21,3 +21,15 @@ print("El curso en la 4ta posicion es : ",primer_curso)
 #Si se desea actualizar una posicion podemos hacerlo por las posiciones
 lista_cursos [4] = "Rust"
 print("El nuevo curso editado es : ",lista_cursos[4])
+
+#Creacion de sublistas.
+#sublista_ lista_nueva[inicial:final]
+#contempla el inicial pero es entre el final NO el FINAL
+sub_lista = lista_cursos[0:3] #Aqui indicamos que vamos a tomar desde la posicion 0 hasta las 2 pues el 0-3 indica
+#que se va tomar entre la 0 y las 
+print(sub_lista) #Se imprime Python, Django Flask
+
+#[start:end]
+#[start:] -> Obtenemos los ultimos elementos de la lista
+#[:end] -> Obtenemos los primeros elementos de la lista
+#[start:end:skip] -> El skip serian los SALTOS que hara.
