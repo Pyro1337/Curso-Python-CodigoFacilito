@@ -16,3 +16,8 @@ primer_curso = lista_cursos[3]
 print("El curso en la 4ta posicion es : ",primer_curso)
 
 #si se realizan busquedas en una lista con una posicion que sobrepasa la cantidad entonces saca un out of range.
+
+
+#Si se desea actualizar una posicion podemos hacerlo por las posiciones
+lista_cursos [4] = "Rust"
+print("El nuevo curso editado es : ",lista_cursos[4])
