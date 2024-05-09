@@ -33,3 +33,14 @@ print(sub_lista) #Se imprime Python, Django Flask
 #[start:] -> Obtenemos los ultimos elementos de la lista
 #[:end] -> Obtenemos los primeros elementos de la lista
 #[start:end:skip] -> El skip serian los SALTOS que hara.
+
+
+#como agregar elementos a una lista.
+lista_cursos.append('MongoDB') #Para agregar un elemento a la lista basta con utilizar append.
+print(lista_cursos)
+
+#Reemplazar el valor y mover la lista actualmente tenemos hasta :
+#['Python', 'Django', 'Flask', 'Java', 'Rust', 'MongoDB'] entonces si realizo un lista_cursos.insert(0,'Pygame')
+#entonces colocaria a Python en la posicion 1 y la 0 corresponderia ahora a Pygame
+lista_cursos.insert(0,'Pygame')
+print(lista_cursos) #nos devuelve ['Pygame', 'Python', 'Django', 'Flask', 'Java', 'Rust', 'MongoDB']
