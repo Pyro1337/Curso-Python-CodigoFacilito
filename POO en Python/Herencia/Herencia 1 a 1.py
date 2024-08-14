@@ -27,6 +27,7 @@ class Desarrollador(Persona):
         self.lenguajes = lenguajes
 
     def programacion(self):
+        #Aqui se hace un selfPrint utilizando self.Variables que ya se contienen.
         print(f"El dev {self.nombre}, cuyo nivel es {self.nivel}, se encuentra programando en el lenguaje {self.lenguajes}")
             
 

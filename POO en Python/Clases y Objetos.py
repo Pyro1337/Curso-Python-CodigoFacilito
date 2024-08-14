@@ -6,6 +6,8 @@ class Celular:
         self.modelo = modelo
         self.camara = camara
 
+
+#Definicion de funciones de este objeto.
     def llamar(self, numero):  # Añadir self
         print("Se esta llamando al numero " + numero)
 
